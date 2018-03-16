@@ -1,0 +1,146 @@
+* {
+  font-family: Helvetica;
+  font-family: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+  background-color: black;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header nav {
+  text-decoration: underline;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  width: 1200px;
+  height: 700px;
+  position: relative;
+  top: 100px;
+  background: url("../pictures/img-mission-background.jpg") no-repeat;
+  background-size: cover; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-color: black;
+}
+
+.hero h2,
+.hero h4 {
+  margin: 0;
+  padding: 12px;
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+}
+
+.month-tea {
+  width: 1000px;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+
+.month-image {
+  height: 200px;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.locations {
+  height: 500px;
+  position: relative;
+  top: 100px;
+  width: 1200px;
+  background: url("../pictures/img-locations-background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  flex-direction: column;
+  background-color: none;
+  background-color: rgb(0,0,0,0);
+}
+
+.location-items {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0,0,0,0);
+}
+
+.locations h2,
+.location-items {
+  margin: 0;
+  padding: 12px;
+  background-color: rgb(0,0,0,0);
+  width: 1200px;
+  text-align: center;
+  }
+
+.loc-item {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 20px;
+  margin-top: 15px;
+  width: 300px;
+  opacity: 1;  
+}
+
+footer {
+  position: relative;
+  top: 100px;
+}
+
+.contact {
+  text-align: center;
+  height: 200px;
+}
+
+.copy-right {
+  text-align: left;
+  margin-left: 20px;
+}
